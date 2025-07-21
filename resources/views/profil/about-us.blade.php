@@ -7,14 +7,6 @@
         @csrf
         @method('PUT')
 
-        {{-- <div class="form-group">
-            <label for="company_name">Company Name</label>
-            <input type="text" class="form-control dark" name="company_name" id="company_name"
-                value="{{ old('company_name', $profilCompany->company_name) }}" required>
-            @error('company_name')
-                <div class="form-text text-danger">{{ $message }}</div>
-            @enderror
-        </div> --}}
         <div class="form-group-row d-flex mt-5">
             <div class="col-md-6 mb-3">
                 <label for="banner1">Banner 1</label>
@@ -53,16 +45,6 @@
             </div>
         </div>
 
-
-        {{-- <div class="form-group">
-            <label for="address">Address</label>
-            <input type="text" class="form-control dark" name="address" id="address"
-                value="{{ old('address', $profilCompany->address) }}" required>
-            @error('address')
-                <div class="form-text text-danger">{{ $message }}</div>
-            @enderror
-        </div> --}}
-
         <hr>
 
                 <div class="form-group">
@@ -82,24 +64,5 @@
         </div>
 
         <button type="submit" class="btn btn-dark mb-5">Submit</button>
-
-        {{-- <div class="form-group-row d-flex mt-5">
-            <div class="col-md-6 mb-3">
-                <label for="struktur">Struktur Organisasi</label>
-                <input type="file" name="struktur" class="form-control @error('struktur') is-invalid @enderror"
-                    id="struktur">
-                @error('struktur')
-                    <div class="form-text text-danger">{{ $message }}</div>
-                @enderror
-                <div class="d-flex justify-content-end">
-                    <button type="submit" class="btn btn-dark mt-3">Upload</button>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <center>
-                    <img src="{{ asset('img/' . $profilCompany->struktur) }}" width="300px">
-                </center>
-            </div>
-        </div> --}}
     </form>
 @endsection

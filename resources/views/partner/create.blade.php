@@ -17,14 +17,6 @@
         @enderror
     </div>
 
-    {{-- <div class="form-group">
-        <label for="partner_description">Description</label>
-        <textarea class="form-control dark" name="partner_description" id="partner_description" placeholder="Partner Description" required></textarea>
-        @error('partner_description')
-            <div class="form-text text-danger">{{ $message }}</div>
-        @enderror
-    </div> --}}
-
     <div class="form-group">
         <label for="partner_img">Image</label>
         <input type="file" class="form-control dark" name="partner_img" id="partner_img">

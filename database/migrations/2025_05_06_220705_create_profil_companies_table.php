@@ -17,7 +17,6 @@ return new class extends Migration
             $table->text('address');
             $table->text('about1');
             $table->text('about2');
-            // $table->string('struktur')->nullable();
             $table->string('banner1')->nullable();
             $table->string('banner2')->nullable();
             $table->timestamps();

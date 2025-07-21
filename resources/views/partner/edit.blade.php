@@ -17,14 +17,6 @@
         @enderror
     </div>
 
-    {{-- <div class="form-group">
-        <label for="partner_description">Description</label>
-        <textarea class="form-control dark" name="partner_description" id="partner_description" required>{{ $partner->partner_description }}</textarea>
-        @error('partner_description')
-            <div class="form-text text-danger">{{ $message }}</div>
-        @enderror
-    </div> --}}
-
     <div class="mb-3">
         <label for="partner_img">Image</label>
         <input type="file" name="partner_img" class="form-control @error('partner_img') is-invalid @enderror" id="partner_img">

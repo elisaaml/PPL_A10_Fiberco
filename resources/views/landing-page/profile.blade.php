@@ -63,22 +63,6 @@
     <br><br>
     <!-- end partner -->
 
-    <!-- company struktur -->
-    {{-- <section id="product" class="padding-large overflow-hidden">
-        <div class="container">
-            <div class="row">
-                <div class="section-header text-center">
-                    <h2 class="section-title under">Company Structure</h2>
-                    <p>Organizational Structure of CV SUMBERSARI, which ensures smooth operation and high-quality product delivery:</p>
-                </div><br>
-                <div class="container">
-                    <center><img src="{{ asset('/img/' . $profilCompany->struktur) }}" alt="icon" width="100%"></center>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-    <!-- end company -->
-
     <!-- team -->
     <section id="quality">
         <div class="section-header text-center">

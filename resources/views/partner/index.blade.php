@@ -17,7 +17,6 @@
     <div class="products-header">
         <div class="product-cell">ID</div>
         <div class="product-cell">Partner Name</div>
-        {{-- <div class="product-cell">Description</div> --}}
         <div class="product-cell">Image</div>
         <div class="product-cell">Action</div>
     </div>
@@ -26,7 +25,6 @@
         <div class="products-row">
             <div class="product-cell">{{ ++$i }}</div>
             <div class="product-cell">{{ $item->partner_name }}</div>
-            {{-- <div class="product-cell">{{ $item->partner_description }}</div> --}}
             <div class="product-cell"><img src="/img/partners/{{ $item->partner_img }}" width="100%"></div>
             <div class="product-cell">
                 <form action="{{ route('partner.destroy', $item->id) }}" method="POST" class="delete-form" data-name="{{ $item->partner_name }}">
